@@ -29,3 +29,11 @@ for (var i = 0; i < arr.length; i++) {
 }
 
 console.log(result);
+
+
+
+let str = "Wonderful Joyful Happiness Time Task Apple";
+
+let regex = /\b[^aA\s]{6,}\b/g;
+
+console.log(str.match(regex));
